@@ -10,7 +10,7 @@
           <label for="cameraInput" class="btn btninput">Subir Archivo</label>
       </div>
       <div class="form-group">
-        <button class="btn btn-success btn-block " type="button"
+        <button class="btn btn-secondary btn-block " type="button"
           (click)="validarImagen()" id="btn-abrir-popup" >¡Hacer OCR!</button>
           <!-- <button id="btn-abrir-popup" class="btn-abrir-popup" (click)="validarImagen()">Abrir Ventana Emergente</button> -->
       </div>
@@ -34,7 +34,7 @@
     <!--Boton de Descargar PDF-->
     <div class="col-sm-3 container">
       <div class="">
-        <input class="btn btn-dark" id="dwnPdf" (click)="crearPdf()" type="submit" value="Download PDF" /> 
+        <input class="btn btn-secondary" id="dwnPdf" (click)="crearPdf()" type="submit" value="Download PDF" /> 
       </div>
       <br>
     </div>
@@ -42,7 +42,7 @@
     <!--Boton de Descargar Word-->
     <div class="col-sm-3 container">
       <div class="">
-        <input id="dwlddoc" class="btn btn-dark" (click)="Export2Doc('texto', '')" type="button" value="Download WORD" /> 
+        <input id="dwlddoc" class="btn btn-secondary" (click)="Export2Doc('texto', '')" type="button" value="Download WORD" /> 
       </div>
     </div>
     <br>
@@ -50,7 +50,7 @@
     <!-- Boton de Descargar TXT-->
     <div class="col-sm-3 container">
       <div class="">
-        <input id="dwnTxt" class="btn btn-dark" (click)="ExportTxt('texto', 'My Scann OCR')" type="button" value="Download TXT" /> 
+        <input id="dwnTxt" class="btn btn-secondary" (click)="ExportTxt('texto', 'My Scann OCR')" type="button" value="Download TXT" /> 
       </div>
     </div>
     
@@ -92,9 +92,10 @@
 <footer class="footer-bs">
   <div class="row col-lg-12">
     <div class="col-md-4 footer-brand animated fadeInLeft">
-      <h2><span><img src="https://es.freelogodesign.org/share/78931d6b38134453bb4e73daeadb1b28"height="50%" width="50%" alt=""></span></h2>
-                <p>Los mejores en Sistemas OCR</p>
-                <p>© 2021 SALT OCR, Todos los derechos reservados</p>
+      <p>
+      <a href="#"><img src="https://i.ibb.co/fkRL2Ph/Umbrella-Corporation3.png" alt="Umbrella-Corporation3" border="0" text-align="center" height="50px" width="50px"></a>
+                © 2021 SALT OCR </p>
+                <p>© Todos los derechos reservados</p>
     </div>
     <div class="col-md-4 footer-nav animated fadeInUp text-center">
       <br><br>
@@ -102,8 +103,9 @@
       <ul class="pages">
         <li><a href="">Ayuda</a></li>
         <li><a href="">Información y Precios</a></li>
-        <li><a href="">Sobre Nosotros</a></li>
-        <li><a href="">Documentación</a></li>
+        <li><a href="https://jsandovals3.wixsite.com/saltocr/sobre-mi" target="_blank">Quienes somos</a></li>
+        <li><a href=""target="_blank">Sobre Nosotros</a></li>
+        <li><a href="https://github.com/JohnSandovalSS20/SALT-SCANN" target="_blank">Git</a></li>
         
     </ul>
     </div>
@@ -113,10 +115,10 @@
       <h4 style="transform:translateX(25px)">Siguenos</h4>
       <br>
       <ul id="navlist" class="text-center">
-        <li id="facebook"><a href=""><img src="https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-icono-de-facebook-logo-by-vexels.png" height="85%" width="85%" alt=""></a></li>
-        <li id="twitter"><a href=""><img src="https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-icono-de-twitter-logo-by-vexels.png" height="85%" width="85%" alt=""></a></li>
-        <li id="instagram"><a href=""><img src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-icono-de-instagram-logo-by-vexels.png" height="85%" width="85%" alt=""></a></li>
-        <li id="youtube"><a href=""><img src="https://cdn1.iconfinder.com/data/icons/flat-business-icons/128/browser-512.png" height="85%" width="85%" alt=""></a></li>
+        <li id="facebook"><a href="https:\\www.facebook.com" target="_blank"><img src="https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-icono-de-facebook-logo-by-vexels.png" height="85%" width="85%" alt=""></a></li>
+        <li id="twitter"><a href="https:\\www.twitter.com" target="_blank"><img src="https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-icono-de-twitter-logo-by-vexels.png" height="85%" width="85%" alt=""></a></li>
+        <li id="instagram"><a href="https:\\www.instagram.com" target="_blank"><img src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-icono-de-instagram-logo-by-vexels.png" height="85%" width="85%" alt=""></a></li>
+        <li id="youtube"><a href="https:\\www.youtube.com" target="_blank"><img src="https://i.ibb.co/zb2XV7B/klipartz-com-1.png" alt="klipartz-com-1" border="0" height="85%" width="85%" alt=""></a></li>
 
       </ul>
      <br>
